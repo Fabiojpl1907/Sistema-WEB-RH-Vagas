@@ -32,19 +32,19 @@ No transcorrer do projeto serão utilizadas :
 - POO / MVC 
 - IDE Eclipse (https://www.eclipse.org/downloads/)
 - Banco de dados PostregeSQL
-- WildFly ( servidor internet )
+- WildFly (servidor internet )
 - HTML
 - CSS
-- JSP ( Java Server Pages)
+- JSP
 - JSON
 - Java
 - Angular
-- Spring boot ( framework de desenvolvimento de sistemas)
+- Spring Boot
 
 
 
 ## Estrutura do Repositório
 
-A cada passo é numerado e inserido do repositório e neste readme, conforme foram sendo realizados, de forma iterativa. 
+Cada passo é numerado e inserido do repositório e neste readme, conforme foram sendo realizados, de forma iterativa. 
 
 1. Formulário de Requisitos + Diagrama de Classe + Modelo Lógico do BD
