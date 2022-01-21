@@ -9,22 +9,22 @@
   <body>
 
 	<div>Simulador de Investimento</div>
-	<div>Valores no formato americano #,##0.00</div>
+	<div>(valores no formato americano #,##0.00)</div>
 	<form action ="inv_001.jsp" method ="post">
 	
 		<table>
 			<tr> 
-				<td>Valor a investir</td>
+				<td>Valor a investir : </td>
 				<td> <input type="text" name="valinv" required></td>
 			</tr>
 			
 			<tr> 
-				<td>Taxa</td>
+				<td>Taxa : </td>
 				<td> <input type="text" name="taxa" required></td>
 			</tr>	
 			
 			<tr> 
-				<td>Período (min:12 e max:36 meses)</td>
+				<td>Período (min:12 e max:36 meses) : </td>
 				<td> <input type="text" name="periodo" min="12" max="36"></td>
 			</tr>			
 			

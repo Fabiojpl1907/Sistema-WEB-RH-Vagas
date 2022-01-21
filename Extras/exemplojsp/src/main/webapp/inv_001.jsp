@@ -33,23 +33,23 @@ Double vc = i.valor_calculado;
 	
 		<caption>Resultado da Simulação de Investimento</caption>
 		<tr>
-			<td>Valor a investir</td>
+			<td>Valor investido : </td>
 			<td><%=df.format(vi)%></td>
 		</tr>
 		
 		<tr>
-			<td>Taxa</td>
+			<td>Taxa : </td>
 			<td><%=df.format(tx)%></td>
 		</tr>
 		
 		<tr>
-			<td>Período</td>
+			<td>Período : </td>
 			<td><%=pr%></td>
 		</tr>
 		
 		
 		<tr>
-			<td>Valor Calculado</td>
+			<td>Valor Calculado : R$ </td>
 			<td><%=df.format(vc)%></td>
 		</tr>
 
