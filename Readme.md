@@ -31,7 +31,7 @@ No transcorrer do projeto serão utilizadas :
 
 - POO / MVC 
 - IDE Eclipse (https://www.eclipse.org/downloads/)
-- Banco de dados PostregeSQL
+- Banco de dados MySQL
 - WildFly (servidor internet )
 - HTML
 - CSS
@@ -48,7 +48,14 @@ No transcorrer do projeto serão utilizadas :
 Cada passo é numerado e inserido do repositório e neste readme, conforme foram sendo realizados, de forma iterativa. 
 
 1. Formulário de Requisitos + Diagrama de Classe + Modelo Lógico do BD
-1. Front End 
+
+1. Front-End 
+   Cria aplicação básica web para preencher Formulario  via JSP
+   Utiliza o WildFly como servidor WEB
+
+1. Back-End ( a construir )
+
+   
 
 
 
