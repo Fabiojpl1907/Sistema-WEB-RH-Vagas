@@ -53,12 +53,29 @@ Cada passo é numerado e inserido do repositório e neste readme, conforme foram
    Cria aplicação básica web para preencher Formulario  via JSP
    Utiliza o WildFly como servidor WEB
 
-1. Back-End ( a construir )
+1. Back-End 
 
+   Realiza interface com banco de dados MySQL 
    
-
-
+   Através de JSP ( Java Server Page ) e Java, foi criado as rotinas de :
+   
+   ​	Incluir /  Alterar / Excluir / Listar vagas 
+   
+   ​	Em listar é possível escolher escolher vagas em aberto / fechadas / todas
+   
+   Chamada ao sistema se dá por : index.jsp
+   
+   Cada rotina possui 2 arquivos jsp
+   
+   ​	xxx_001 -> tela de solicitação ( cadastros / opções)
+   
+   ​	xxx_002 -> tela de apresentação / confirmação da ação 
+   
+   Arquivo empregos.sql apresenta os comando de criação do banco / tabela
+   
+   
 
  **Extras** : Esta pasta contem pequenos projetos que utilizam e apresentam os conceitos e tecnologias utilizado na aplicação web  
 
 - exemplojsp : Calculo de investimento usando jsp e java
+- investimendoDB : Interface com banco de dados MySQL

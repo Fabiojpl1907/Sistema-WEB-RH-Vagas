@@ -1,15 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
     
-    
 <%@ page import="fj.vagas.Vagas" %>
 <%@ page import="java.text.DecimalFormat" %>
 
 <%
 //Capturar objetos do formulario
 // linca variavel a nome do campo no formulario 
-
-//Converter string para float - aplicado em  ID Vaga
+//Converter string para int - aplicado em  ID Vaga
 Integer id = Integer.parseInt(request.getParameter ("idvaga"));
 
 String desc = request.getParameter("descricao");
@@ -22,8 +20,6 @@ Float sal = Float.parseFloat(request.getParameter("salario"));
 
 String benf = request.getParameter("beneficios");
 String ltrab = request.getParameter("local_trab");
-// indicar que vaga esta aberta 
-Boolean aberta = true;
 
 // instanciar classe Vagas
 Vagas vg = new Vagas();
@@ -32,33 +28,30 @@ Vagas vg = new Vagas();
 // para os atributos do objeto "vg"
 vg.setIdvaga_cc(id);
 vg.setDescricao_cc(desc);
-vg.setRq_obrigatórios_cc(reqo);
-vg.setReq_desejáveis_cc(reqd);
+vg.setReq_obrigatorios_cc(reqo);
+vg.setReq_desejaveis_cc(reqd);
 vg.setRemuneracao_cc(sal);
 vg.setBeneficios_cc(benf);
 vg.setLocal_trabalho_cc(ltrab);
-vg.setAberta_cc(aberta);
+vg.setAberta_cc(1);
 
-// incluir dados  no banco de dados
-// vg.Incluir();
+// alterar dados  no banco de dados
+vg.Alterar();
 %>
-   
+    
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Vagas</title>
+<title>Vaga Aberta</title>
 </head>
 <body>
+
+	<form action="index.jsp" method="post">
 	<table>
 	
-		<caption>Vaga Registrada</caption>
-		<caption>------------------------------------------------</caption>
-		
-		<tr> 
-		  <td>Id Vaga : </td>
-		  <td><%=id%></td>
-		</tr>
+		<caption>Vaga Alterada</caption>
+		<caption>-------------</caption>
 		
 		<tr> 
 			<td>Descrição : </td>
@@ -71,7 +64,7 @@ vg.setAberta_cc(aberta);
 		</tr>	
 				
 		<tr> 
-			<td>Requisitos Desejaveis : </td>
+			<td>Requisitos Desejáveis : </td>
 			<td> <%=reqd%></td>
 		</tr>	
 			
@@ -89,11 +82,15 @@ vg.setAberta_cc(aberta);
 			<td>Local de Trabalho : </td>
 			<td> <%=ltrab%></td>
 		</tr>	
-		<tr> 
-			<td>Status : </td>
-			<td>Aberta</td>
+		
+		<tr><th colspan=2 style="color:red">Vaga alterada com sucesso.</th></tr>
+		
+		<tr>
+			<th colspan=2> <button type ="submit">Voltar</button> </th>
 		</tr>	
 
 	</table>
+	</form>
+
 </body>
 </html>

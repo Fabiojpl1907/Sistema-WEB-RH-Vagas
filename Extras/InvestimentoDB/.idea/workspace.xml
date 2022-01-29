@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="367f212b-a69d-4e44-9e4d-f712f9be0afd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../3_BackEnd/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../3_BackEnd/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3_BackEnd/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../../3_BackEnd/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3_BackEnd/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3_BackEnd/.settings/org.eclipse.wst.common.project.facet.core.prefs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3_BackEnd/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../3_BackEnd/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3_BackEnd/.tern-project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3_BackEnd/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3_BackEnd/src/main/java/fj/vagas/Vagas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../3_BackEnd/src/main/java/fj/vagas/Vagas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3_BackEnd/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3_BackEnd/src/main/webapp/vaga_001.jsp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="24KS5HfMzV4eLXNVjfeoAFHAIIV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="367f212b-a69d-4e44-9e4d-f712f9be0afd" name="Changes" comment="" />
+      <created>1643377603081</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643377603081</updated>
+    </task>
+    <servers />
+  </component>
+</project>
