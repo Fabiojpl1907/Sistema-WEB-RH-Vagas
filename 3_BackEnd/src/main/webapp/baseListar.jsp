@@ -28,7 +28,7 @@
 		<td>Req. Desejados</td>
 		<td>Salario</td>
 		<td>Beneficios</td>
-		<td>Aberta</td>
+		<td>Local de Trabalho</td>
 		</tr>
 		<%
 		try
