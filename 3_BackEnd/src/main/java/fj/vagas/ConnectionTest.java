@@ -1,6 +1,7 @@
 package fj.vagas;
 
-//Classes necessárias para uso de Banco de dados //
+//Classes necessárias para uso de Banco de dados 
+// Tratar execeptions é mandatório ao manusear banco de dados
 
 import java.sql.Connection;
 
