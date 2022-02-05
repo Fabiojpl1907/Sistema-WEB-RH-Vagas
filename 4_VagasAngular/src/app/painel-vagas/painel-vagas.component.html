@@ -1,23 +1,21 @@
 <h2>Cadastrar</h2>
 <form>
-    <label>Id</label><input type="text" name="id" [(ngModel)] = "vaga.id"><br>
-    <label>Nome</label><input type="text" name="descricao" [(ngModel)] = "vaga.descricao"><br>
-    <label>Foto</label><input type="text" name="foto" [(ngModel)] = "vaga.foto"><br>
-    <label>Requisitos Obrigatórios</label><input type="text" name="reqobrig" [(ngModel)] = "vaga.req_obrigatorio"><br>
-    <label>Requisitos Desejáveis</label><input type="text" name="reqdesj" [(ngModel)] = "vaga.req_desejaveis"><br>
-    <label>Salário</label><input type="text" name="salario" [(ngModel)] = "vaga.remuneracao"><br>
-    <label>Loca de Trabalho</label><input type="text" name="local" [(ngModel)] = "vaga.local_trabalho"><br>
+    <label>Id Vaga :</label><input type="text" name="id" [(ngModel)] = "vaga.id"><br>
+    <br><label>Descrição :</label><input type="text" name="descricao" [(ngModel)] = "vaga.descricao"><br>
+    <br><label>Foto :</label><input type="text" name="foto" [(ngModel)] = "vaga.foto"><br>
+    <br><label>Requisitos Obrigatórios :</label><input type="text" name="reqobrig" [(ngModel)] = "vaga.req_obrigatorio"><br>
+    <br><label>Requisitos Desejáveis :</label><input type="text" name="reqdesj" [(ngModel)] = "vaga.req_desejaveis"><br>
+    <br><label>Salário :</label><input type="text" name="salario" [(ngModel)] = "vaga.remuneracao"><br>
+    <br><label>Loca de Trabalho :</label><input type="text" name="local" [(ngModel)] = "vaga.local_trabalho"><br>
    
    
-    <button type="button" (click)="cadastrar()">Cadastrar Vaga</button>
+    <br><button type="button" (click)="cadastrar()">Cadastrar Vaga</button>
     <button type="button" (click)="atualizar(vaga.id)">Atualizar Vaga</button>
-    <button type="button" (click)="excluir(vaga.id)">Excluir Vaga</button>
+    <button type="button" (click)="excluir(vaga.id)">Excluir Vaga</button><br>
 </form>
    
-
 <section class="lista-vagas">
     <div *ngFor="let vaga of vagas">
-
         <div class="card" style="width: 18rem;">
             <img src="assets\img\vagas\{{vaga.foto}}" class="card-img-top" alt="...">
             <div class="card-body">

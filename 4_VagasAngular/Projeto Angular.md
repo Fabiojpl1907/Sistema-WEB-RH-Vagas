@@ -96,3 +96,8 @@ alterar -> app.component.html
 alterar -> rodape.component.html
 
 alterar -> app.module.ts
+
+alterar -> vagas.service.ts
+
+alterar -> painel-vagas.component.ts
+
