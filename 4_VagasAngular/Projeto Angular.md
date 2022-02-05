@@ -65,7 +65,7 @@ app/mural-vagas
 
 app.component.html - colocar <app-mural-vagas></app-mural-vagas>
 
-criart serviços -> vagas.service.spec.ts  e  vagas.service.ts
+criar serviços -> vagas.service.spec.ts  e  vagas.service.ts
 
 alterar ->  vagas.service.ts  /  app.module.ts
 
@@ -73,14 +73,26 @@ alterar -> mural-vagas.component.ts
 
 alterar -> mural-vagas.component.html
 
+instalar Json server npm install -g json-server
+
+rodar servidor -> json-server --watch vagas-db.json
+
+alterar -> mural-vagas.component.css
 
 
 
+criar -> app-routing.module.ts   ( ng g m app-routing)
 
+alterar -> app.module.ts
 
+alterar -> app-routing.module.ts
 
+criar cadastro vagas / menu / rodape -> ng g c painel-vagas
 
+alterar -> menu.component.html
 
+alterar -> app.component.html
 
+alterar -> rodape.component.html
 
-
+alterar -> app.module.ts
