@@ -21,7 +21,23 @@ Os requisitos funcionais são:
 -  Deve permitir a exclusão de vagas.
 - Deve exibir todas as vagas em formato de lista
 
+#### Fase 2
 
+Criar front End -Usando para  interface  páginas jsp com elementos em HTML, iniciando com a primeira página como index.jsp .
+
+
+
+#### Fase 3
+
+Criar Back-End - construir o banco de dados e seus respectivos relacionamentos, codificar a conexão com a aplicação e construir os métodos de manutenção da tabela (inclusão, alteração, exclusão) além do módulo de consulta .
+
+#### Fase 4
+
+Criar Front End com framework Angular e Json Server, e contem 
+
+- duas páginas de rota
+- arquivo vagas-db.json, com a lista de vagas
+- Crie os componentes : Menu / Mural de vagas / Painel de Vagas / Rodape
 
 
 
