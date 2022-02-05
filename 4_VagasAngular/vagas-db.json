@@ -1,31 +1,31 @@
 {
-    "vagas": [{
+  "vagas": [
+    {
       "id": 1,
       "descricao": "Desenvolvedor Java Senior",
-      "foto":"Foto1.jpg",
+      "foto": "Foto1.jpg",
       "req_obrigatorio": "Java, SpringBoot, Padroes de Projeto",
       "req_desejaveis": "REST , MySQL, Azure",
       "remuneracao": 10000,
       "local_trabalho": "São Paulo"
     },
-      {
-        "id": 2,
-        "descricao": "Desenvolvedor Java Junior",
-        "foto":"Foto2.jpg",
-        "req_obrigatorio": "Java, SpringBoot",
-        "req_desejaveis": "MySQL, Azure",
-        "remuneracao": 3000,
-        "local_trabalho": "São Carlos"
-      },
-      {
-        "id": 3,
-        "descricao": "Analista de TI",
-        "foto":"Foto3.jpg",
-        "req_obrigatorio": "ITIL Foundation",
-        "req_desejaveis": "COBIT",
-        "remuneracao": 5000,
-        "local_trabalho": "São Paulo"
-      }
-    ]
-  }
-  
+    {
+      "id": 2,
+      "descricao": "Desenvolvedor Java Junior",
+      "foto": "Foto2.jpg",
+      "req_obrigatorio": "Java, SpringBoot",
+      "req_desejaveis": "MySQL, Azure",
+      "remuneracao": 3000,
+      "local_trabalho": "São Carlos"
+    },
+    {
+      "id": 3,
+      "descricao": "Analista de TI",
+      "foto": "Foto3.jpg",
+      "req_obrigatorio": "ITIL Foundation",
+      "req_desejaveis": "COBIT",
+      "remuneracao": 5000,
+      "local_trabalho": "São Paulo"
+    }
+  ]
+}
