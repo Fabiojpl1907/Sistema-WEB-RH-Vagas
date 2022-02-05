@@ -1,17 +1,85 @@
-<h2>Cadastrar</h2>
+<h2>Gerenciar Vagas</h2>
 <form>
-    <label>Id Vaga :</label><input type="text" name="id" [(ngModel)] = "vaga.id"><br>
-    <br><label>Descrição :</label><input type="text" name="descricao" [(ngModel)] = "vaga.descricao"><br>
-    <br><label>Foto :</label><input type="text" name="foto" [(ngModel)] = "vaga.foto"><br>
-    <br><label>Requisitos Obrigatórios :</label><input type="text" name="reqobrig" [(ngModel)] = "vaga.req_obrigatorio"><br>
-    <br><label>Requisitos Desejáveis :</label><input type="text" name="reqdesj" [(ngModel)] = "vaga.req_desejaveis"><br>
-    <br><label>Salário :</label><input type="text" name="salario" [(ngModel)] = "vaga.remuneracao"><br>
-    <br><label>Loca de Trabalho :</label><input type="text" name="local" [(ngModel)] = "vaga.local_trabalho"><br>
-   
-   
-    <br><button type="button" (click)="cadastrar()">Cadastrar Vaga</button>
-    <button type="button" (click)="atualizar(vaga.id)">Atualizar Vaga</button>
-    <button type="button" (click)="excluir(vaga.id)">Excluir Vaga</button><br>
+    <table>
+        <tr>
+            <td>
+                <label>Id Vaga :</label>
+            </td>
+            <td>
+                <input type="text" name="id" [(ngModel)] = "vaga.id">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label>Descrição :</label>
+            </td>
+            <td>
+                <input type="text" name="descricao" [(ngModel)] = "vaga.descricao">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label>Foto :</label>
+            </td>
+            <td>
+                <input type="text" name="foto" [(ngModel)] = "vaga.foto">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Requisitos Obrigatórios :</label>
+            </td>
+            <td>
+                <input type="text" name="reqobrig" [(ngModel)] = "vaga.req_obrigatorio">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Requisitos Desejáveis :</label>
+            </td>
+            <td>
+                <input type="text" name="reqdesj" [(ngModel)] = "vaga.req_desejaveis">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Salário :</label> 
+            </td>
+            <td>
+                <input type="text" name="salario" [(ngModel)] = "vaga.remuneracao">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Loca de Trabalho :</label>
+            </td>
+            <td>
+                <input type="text" name="local" [(ngModel)] = "vaga.local_trabalho">
+            </td>
+        </tr>
+
+        <tr>
+        </tr>
+    </table>
+
+    <table>
+        <tr>  </tr>
+        <tr>
+            <td>
+                <button type="button" (click)="cadastrar()">Cadastrar Vaga</button>
+            </td>
+            <td></td>
+            <td>
+                <button type="button" (click)="atualizar(vaga.id)">Atualizar Vaga</button>
+            </td>
+            <td></td>
+            <td>
+                <button type="button" (click)="excluir(vaga.id)">Excluir Vaga</button><br>
+            </td>
+        </tr>
+    </table>
 </form>
    
 <section class="lista-vagas">
