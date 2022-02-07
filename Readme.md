@@ -58,12 +58,12 @@ Criar sistema de RH com uso do Spring Boot, com a seguinte configuração
 - Dependencias
 
   - Spring Web : Construir aplicação WEB, incluindo RESTfull, usando SPRING MVC, Servidor Apache Tomcat como padrão
-
-  - Spring Boot DevTools  : prove reinico rápido das aplicações , LiveReload, e configurações para melhorar a experiencia de desenvolvimento 
-
+  - Spring Boot DevTools  : prove reinicio rápido das aplicações , LiveReload, e configurações para melhorar a experiencia de desenvolvimento 
   - Thymeleaf : mecanismo Java para ambientes web e local que permite HTML ser corretamente apresentado nos browsers e prototipos estáticos, 
 
-    
+- Controlando rotas – método GET / método POST
+
+  
 
 ## Tecnologias & Conceitos
 
